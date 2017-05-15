@@ -1,0 +1,31 @@
+.rake_test_cache
+.kitchen
+.chef/*.pem
+/data_bags
+/data_bags/*
+node-backup*
+.DS_Store
+*~
+*.swp
+*.swo
+/cookbooks
+/osl-cookbooks
+/osuosl-cookbooks
+/community-cookbooks
+/vendor
+Berksfile.lock
+
+# chef-provisioner
+/provisioning/.chef/*.pem
+/provisioning/.chef/local-mode-cache
+/provisioning/.chef/clients
+/provisioning/.chef/nodes
+/provisioning/.chef/provisioning
+/provisioning/nodes
+/provisioning/cookbooks
+/provisioning/clients
+/provisioning/vendor
+/provisioning/Berksfile.lock
+
+# allow local berkshelf settings
+.berkshelf/
