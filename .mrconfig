@@ -1,0 +1,6 @@
+[data_bags]
+checkout = gcloud source repos clone data_bags
+[cookbooks/desktop]
+checkout = git clone git@github.com:jldugger/desktop.git
+[cookbooks/pwnguin-cookbook]
+checkout = git clone git@github.com:jldugger/pwnguin-cookbook.git
