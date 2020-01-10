@@ -1,4 +1,6 @@
 name 'shell'
 description 'shell server role'
-run_list ['recipe[pwnguin::shell]',
+run_list [
+    'recipe[pwnguin::shell]',
+    'recipe[pwnguin::default]',
 ]
