@@ -1,6 +1,7 @@
 .rake_test_cache
 .kitchen
 .chef/*.pem
+.chef/chef_guid
 .chef/syntaxcache/
 /data_bags
 /data_bags/*
