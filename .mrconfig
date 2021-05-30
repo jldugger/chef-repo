@@ -4,3 +4,7 @@ checkout = gcloud source repos clone data_bags
 checkout = git clone git@github.com:jldugger/desktop.git
 [cookbooks/pwnguin-cookbook]
 checkout = git clone git@github.com:jldugger/pwnguin-cookbook.git
+[cookbooks/base-cookbook]
+checkout = git clone git@github.com:jldugger/base-cookbook.git
+[cookbooks/shell]
+checkout = git clone git@github.com:jldugger/shell.git
